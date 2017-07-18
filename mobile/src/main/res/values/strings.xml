@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidBearSandbox</string>
+    <string name="hello">Hello World!</string>
+
+    <string name="connection_button">Check Connectivity</string>
+    <string name="connection_label">Connected to </string>
+    <string name="connection_fail">Not connected…</string>
+
+    <string name="count_label">Count =</string>
+    <string name="count_result">0</string>
+    <string name="button_count">Increment</string>
+    <string name="dataitem_label">Data item set: </string>
+</resources>

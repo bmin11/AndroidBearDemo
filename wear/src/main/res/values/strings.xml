@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidBearSandbox</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <string name="connection_label">Connected to </string>
+    <string name="connection_fail">Not connected…</string>
+
+    <string name="count_label">Count = </string>
+    <string name="count_result">0</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bmin.androidbearsandbox.MainActivity"
+    tools:deviceIds="wear_square">
+
+    <TextView
+        android:id="@+id/tvConnectionResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_square" />
+
+    <TextView
+        android:id="@+id/tvCountLabel"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:text="@string/count_label"
+        android:layout_below="@+id/tvConnectionResult"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvCountLabel"
+        android:layout_toEndOf="@+id/tvCountLabel"
+        android:text="@string/count_result" />
+</RelativeLayout>
